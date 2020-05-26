@@ -1,0 +1,30 @@
+{
+	"generator_info": "Shape definitions generated with PhysicsEditor. Visit https://www.codeandweb.com/physicseditor",
+	"calabaza": {
+		"type": "fromPhysicsEditor",
+		"label": "calabaza",
+		"isStatic": false,
+		"density": 0.1,
+		"restitution": 0,
+		"friction": 0.1,
+		"frictionAir": 0.01,
+		"frictionStatic": 0.5,
+		"collisionFilter": {
+			"group": 0,
+			"category": 1,
+			"mask": 255
+		},
+		"fixtures": [
+			{
+				"label": "",
+				"isSensor": false,
+				"vertices": [
+					[ { "x":21, "y":32 }, { "x":7, "y":60 }, { "x":8, "y":86 }, { "x":109, "y":109 }, { "x":121, "y":86 }, { "x":121, "y":60 }, { "x":107, "y":32 }, { "x":52, "y":26 } ],
+					[ { "x":55, "y":10 }, { "x":52, "y":26 }, { "x":74, "y":24 }, { "x":72, "y":8 }, { "x":65, "y":5 } ],
+					[ { "x":14, "y":104 }, { "x":29, "y":115 }, { "x":62, "y":123 }, { "x":109, "y":109 }, { "x":8, "y":86 } ],
+					[ { "x":96, "y":26 }, { "x":74, "y":24 }, { "x":52, "y":26 }, { "x":107, "y":32 } ]
+				]
+			}
+		]
+	}
+}
